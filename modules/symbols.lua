@@ -1,6 +1,7 @@
 -- symbols.lua
 local M = {}
 
-M.version = "1.0"
+M.VERSION = "1.0.0"
+M.AUTHOR  = "Kaden"
 
 return M
