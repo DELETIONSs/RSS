@@ -1,7 +1,12 @@
-local requ = {}
+-- requirements.lua
+local M = {}
 
-function requ.doSomething()
-    return "done"
+function M.check()
+    return true
 end
 
-return requ
+function M.getInfo()
+    return "Requirements module loaded"
+end
+
+return M
